@@ -106,6 +106,12 @@ body {
     color: #333;
 }
 
+.price p {
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+}
+
 .btn {
     text-align: center;
 }
