@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAKETKU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-jacket-clothes-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+    <script src="https://kit.fontawesome.com/7c1b58181d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="./index.html">JAKETKU</a></h1>
+        <div class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="#bot-content">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="data">
+            <div class="alamat">
+                <h3>Alamat Pengiriman</h3>
+                <hr>
+                <h4>LENGKAPI ALAMAT PENGIRIMAN</h4>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="name" class="tab-kiri">Nama</label></td>
+                            <td colspan="3"><input type="text" name="name" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="tab-kiri"><label for="address">Alamat</label></td>
+                            <td colspan="3"><textarea name="address" id="address" cols="75" rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-kiri"><input type="text" name="provinsi" id="provinsi" placeholder="Propinsi"></td>
+                            <td><input type="text" name="kota" id="kota" placeholder="Kota"></td>
+                            <td><input type="text" name="pos" id="pos" placeholder="Kode Pos (5 Angka)"></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-kiri"><label for="">Telp</label></td>
+                            <td><input type="text" name="telp" id="telp" placeholder="08xxxxxxxxxx"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Simpan Alamat" class="btnSubmit">
+                </form>
+            </div>
+            <hr style="margin-bottom: 30px; margin-top: 20px;">
+            <hr>
+            <div class="payment">
+                <div class="judul">
+                    <h3>Metode Pembayaran</h3>
+                </div>
+                <div class="isi">
+                    <form action="">
+                        <h4>Transfer Via Virtual Account</h4>
+                        <hr>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/bca-va.png" alt="" class="pay-logo"> BCA Virtual Account</label>
+                        <br>
+                        <h4>Transfer Reguler</h4>
+                        <hr>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/transfer-bca.jpg" alt="" class="pay-logo"> Transfer BCA</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/transfer-mandiri.png" alt="" class="pay-logo"> Transfer Bank Mandiri</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/transfer-bni.png" alt="" class="pay-logo"> Transfer BNI</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/transfer-bri.png" alt="" class="pay-logo"> Transfer BRI</label>
+                        <br>
+                        <h4>Kartu Kredit/Debit</h4>
+                        <hr>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/visa-logo.png" alt="" class="pay-logo"> Kartu Kredit Visa</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/transfer-mandiri.png" alt="" class="pay-logo"> Kartu Debit Mandiri</label>
+                        <br>
+                        <h4>Internet Banking</h4>
+                        <hr>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/logo_bcaklikpay.png" alt="" class="pay-logo"> BCA KlikPay</label>
+                        <br>
+                        <h4>Lainnya</h4>
+                        <hr>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/kredivo-logo.png" alt="" class="pay-logo"> Kredivo</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/indomaret-logo.png" alt="" class="pay-logo"> Indomaret</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/gopay-logo.png" alt="" class="pay-logo"> Go-Pay</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/alfamart-logo.png" alt="" class="pay-logo"> Alfamart</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/ovo-logo.png" alt="" class="pay-logo"> OVO</label>
+                        <br>
+                        <input type="radio" id="" name="pembayaran" value="">
+                        <label for=""><img src="./images/dana-logo.jpg" alt="" class="pay-logo"> Dana</label>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <h3>Detail Pembayaran</h3>
+            <table>
+                <tr>
+                    <td class="td-1">TOTAL PEMBELIAN</td>
+                    <td class="td-2">(+) IDR 597.000</td>
+                </tr>
+                <tr>
+                    <td class="td-1">KODE PEMBAYARAN</td>
+                    <td class="td-2">(-) IDR 40.000</td>
+                </tr>
+                <tr>
+                    <td class="td-1">PENGIRIMAN</td>
+                    <td class="td-2">FREE</td>
+                </tr>
+                <tr>
+                    <td class="td-1">GRAND TOTAL</td>
+                    <td class="td-2">IDR 557.000</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        MASUKAN KUPON ANDA <br>
+                        <input type="text" id="kupon" name="kupon" value="">
+                        <input type="submit" value="GUNAKAN" class="btnUse">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btnOrder">PESAN</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer" id="bot-content">
+        <h2>Discover More of Our World On:</h2>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-4x"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter fa-4x"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-4x"></i></a>
+        <p style="margin-top: 140px;">&copy; 2021 Jaketku.id</p>
+    </div>
+    <div class="logo-tas">
+        <a href="./checkout.html"><i class="fa fa-shopping-bag fa-4x" aria-hidden="true"></i></a>
+        <a href="./checkout.html"><h4>CHECKOUT</h4></a>
+    </div>
+    <div class="cs">
+        <a href="https://api.whatsapp.com/send?phone=+6285255660655"><button class="btnHelp"><i class="fab fa-whatsapp" style="margin-right: 12px;"></i>Butuh Bantuan?</button></a>
+    </div>
+</body>
+</html>
