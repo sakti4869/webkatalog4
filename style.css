@@ -59,12 +59,12 @@ body {
 }
 
 .about h2 {
-    color: #333;
+    color: #f8f8f8;
 }
 
 .about p {
     margin-top: 50px;
-    color: #333;
+    color: #f8f8f8;
 }
 
 .about hr {
@@ -104,21 +104,6 @@ body {
 .desc p, h3 {
     text-align: center;
     color: #333;
-}
-
-.price p {
-    text-align: center;
-    color: crimson;
-    font-weight: bold;
-}
-
-.option-size {
-    margin-left: -30px;
-    margin-bottom: 30px;
-}
-
-.option-color {
-    margin-left: -30px;
 }
 
 .btn {
